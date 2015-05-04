@@ -273,8 +273,8 @@ static char launchNotificationKey;
 
                 if (UIApplicationStateActive == [[UIApplication sharedApplication] applicationState])
                 {
-                    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:@"Close" otherButtonTitles:nil];
-                    [alertView show];
+                    //UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:@"Close" otherButtonTitles:nil];
+                    //[alertView show];
 
                     /*
                      // Send data to cordova and show a modal there. Can this be done?
@@ -397,8 +397,8 @@ static char launchNotificationKey;
     if ([stateName isEqual:@"background"])
     {
         // display alertView because fireEvent to show modal doesn't seem to work coming from the background. Ideas?
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:@"Close" otherButtonTitles:nil];
-        [alertView show];
+        //UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title message:message delegate:nil cancelButtonTitle:@"Close" otherButtonTitles:nil];
+        //[alertView show];
 
         //NSLog(@"Background... SAVE in mutable array for resume event...");
 
