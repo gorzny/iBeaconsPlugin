@@ -86,7 +86,7 @@ AttendeaseBeacons.prototype.fireEvent = function (eventName, data) {
     event = document.createEvent("HTMLEvents");
     event.initEvent(eventName, true, true);
     event.data = data;
-    document.dispatchEvent(event);
+    //document.dispatchEvent(event);
 };
 
 var attendeaseBeacons = new AttendeaseBeacons();
