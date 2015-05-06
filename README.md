@@ -1,6 +1,6 @@
 # Cordova iBeacons Plugin
 
-This plugin enables iBeacon discovery for your Cordova (Phonegap) application.
+This plugin enables iBeacon discovery for your Cordova (Phonegap) application. I've modified this fork so that the native Alert popup does not appear when a beacon is found.
 
 ## Supported Platforms
 
@@ -24,7 +24,7 @@ Better integrate the Radius Networks Android iBeacon Library:
 
 Install with Cordova cli
 
-    $ cordova plugin add https://github.com/Attendease/iBeaconsPlugin.git
+    $ cordova plugin add https://github.com/gorzny/iBeaconsPlugin.git
 
 # Setup for Android
 
